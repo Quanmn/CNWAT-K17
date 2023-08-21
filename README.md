@@ -7,6 +7,7 @@
 - **Ví dụ**: "https://quanmn.github.io/CNWAT-K17/HTML/example.html"
 - **Web myCV**:"https://quanmn.github.io/CNWAT-K17/HTML/MyCV.html"
 - **Web Information**: "https://quanmn.github.io/CNWAT-K17/HTML/information.html"
-- **Web Information**: "https://quanmn.github.io/CNWAT-K17/HTML/transcript.html"
+- **Web transcript**: "https://quanmn.github.io/CNWAT-K17/HTML/transcript.html"
+- **Web News**: "https://quanmn.github.io/CNWAT-K17/HTML/news.html"
 
 - Chưa dùng **responsive** nên chỉ xem trên máy tính :D
