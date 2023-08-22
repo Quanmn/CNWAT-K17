@@ -5,9 +5,9 @@
 - Tiếp theo mục **Branch** chọn nhánh **master**, folder **/(root)** rồi **save** nó sẽ hiện đường link
 - Ấn vào link kèm đường dẫn tới file html là có thể share web trên internet tới mọi người: 
 - **Ví dụ**: "https://quanmn.github.io/CNWAT-K17/HTML/example.html"
-- **Web myCV**:"https://quanmn.github.io/CNWAT-K17/HTML/MyCV.html"
+- **Web myCV**:"https://quanmn.github.io/CNWAT-K17/HTML/Curriculum_vitae.html"
 - **Web Information**: "https://quanmn.github.io/CNWAT-K17/HTML/information.html"
-- **Web transcript**: "https://quanmn.github.io/CNWAT-K17/HTML/transcript.html"
+- **Web transcript**: "https://quanmn.github.io/CNWAT-K17/HTML/score.html"
 - **Web News**: "https://quanmn.github.io/CNWAT-K17/HTML/news.html"
 
 - Chưa dùng **responsive** nên chỉ xem trên máy tính :D
