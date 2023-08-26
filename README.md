@@ -9,5 +9,6 @@
 - **Web Information**: "https://quanmn.github.io/CNWAT-K17/HTML/information.html"
 - **Web transcript**: "https://quanmn.github.io/CNWAT-K17/HTML/score.html"
 - **Web News**: "https://quanmn.github.io/CNWAT-K17/HTML/news.html"
+- **Web Trắc nghiệm**:"https://quanmn.github.io/CNWAT-K17/HTML/tracNghiem.html"
 
 - Chưa dùng **responsive** nên chỉ xem trên máy tính :D
