@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Nhap</title>
+    <link rel="stylesheet" href="../Style/formNhap.css">
+    <script src="../JS/formNhap.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <form>
+            <b>Họ tên:</b> <input type="text" class="required" id="hoTen" onblur="standardizeName()"
+                onkeydown="moveToNext(event, 'diaChi')" required> <br> <br>
+            <b>Địa chỉ:</b> <input type="text" id="diaChi" onkeydown="moveToNext(event, 'ngaySinh')"> <br>
+            <br>
+            <b>Giới tính:</b><input type="radio" class="gioiTinh">Nam
+            <input type="radio" class="gioiTinh">Nữ <br> <br>
+            <b>Ngày sinh:</b> <input type="text" id="ngaySinh" class="required" onkeyup="formatDate(event)"
+                onkeydown="moveToNext(event, 'email')" required> <br><br>
+            <b>Email:</b> <input type="text" id="email" class="required" onblur="validateEmail()"
+                onkeydown="moveToNext(event, 'dienThoai')" required> <br><br>
+            <b>Điện thoại:</b> <input type="text" id="dienThoai" onkeydown="moveToNext(event, 'tenSuDung')"> <br><br>
+            <b>Khoá đăng ký:</b><input type="checkbox" class="checkbox">Tiếng Anh <input type="checkbox"
+                class="checkbox">Quản trị <input type="checkbox" class="checkbox">CNTT <br>
+            <br>
+            <b>Tên sử dụng:</b> <input type="text" id="tenSuDung" class="required"
+                onkeydown="moveToNext(event, 'matKhau')" required> <br><br>
+            <b>Mật khẩu:</b> <input type="password" id="matKhau" class="required"
+                onkeydown="moveToNext(event, 'matKhau2')" required> <br><br>
+            <b>Gõ lại mật khẩu:</b> <input type="password" id="matKhau2" class="required" onblur="validatePassword()"
+                onkeydown="moveToNext(event, 'ghiChu')" required> <br><br>
+            <b>Ghi chú:</b> <textarea name="" id="ghiChu" cols="35" rows="5" onkeydown="moveToNext(event)">
+            </textarea> <br><br>
+            <div class="btn"><button type="submit">Chấp nhận</button>
+                <button type="reset">Bỏ qua</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

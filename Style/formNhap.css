@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+}
+
+#main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+}
+
+input.required {
+    background-color: #00ffec;
+    color: black;
+}
+
+#hoTen{
+    margin-left: 70px;
+}
+#diaChi{
+    margin-left: 68px;
+}
+
+.gioiTinh {
+    margin-left: 58px;
+}
+#ngaySinh{
+    margin-left: 44px;
+}
+#email{
+    margin-left: 78px;
+}
+#dienThoai{
+    margin-left: 43px;
+}
+#tenSuDung{
+    margin-left: 23px;
+}
+#matKhau{
+    margin-left: 50px;
+}
+
+#ghiChu{
+    margin-left: 60px;
+}
+.btn{
+    margin-left: 129px;
+}
+.checkbox{
+    margin-left: 20px;
+}

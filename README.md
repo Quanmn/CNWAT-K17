@@ -10,5 +10,8 @@
 - **Web transcript**: "https://quanmn.github.io/CNWAT-K17/HTML/score.html"
 - **Web News**: "https://quanmn.github.io/CNWAT-K17/HTML/news.html"
 - **Web Trắc nghiệm**:"https://quanmn.github.io/CNWAT-K17/HTML/tracNghiem.html"
-
-- Chưa dùng **responsive** nên chỉ xem trên máy tính :D
+- **Web Lop**:"https://quanmn.github.io/CNWAT-K17/HTML/tableLop.html"
+- **Web HoSo**:"https://quanmn.github.io/CNWAT-K17/HTML/tableHoSo.html"
+- **Web Form**:"https://quanmn.github.io/CNWAT-K17/HTML/formNhap.html"
+- **Web Calculator**:"https://quanmn.github.io/CNWAT-K17/HTML/mayTinh.html"
+- Chưa dùng ***responsive*** nên chỉ xem trên máy tính :D
