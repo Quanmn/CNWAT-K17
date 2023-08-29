@@ -14,4 +14,6 @@
 - **Web HoSo**:"https://quanmn.github.io/CNWAT-K17/HTML/tableHoSo.html"
 - **Web Form**:"https://quanmn.github.io/CNWAT-K17/HTML/formNhap.html"
 - **Web Calculator**:"https://quanmn.github.io/CNWAT-K17/HTML/mayTinh.html"
+- **Web Menu**:"https://quanmn.github.io/CNWAT-K17/HTML/menu.html"
+- **Web List**:"https://quanmn.github.io/CNWAT-K17/HTML/list.html"
 - Chưa dùng ***responsive*** nên chỉ xem trên máy tính :D
