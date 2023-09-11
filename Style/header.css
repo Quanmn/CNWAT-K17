@@ -1,0 +1,39 @@
+/*Reset CSS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#header {
+    height: 46.5px;
+    background-color: #000000;
+
+}
+
+#nav li {
+    display: inline;
+}
+
+#nav .subnav {
+    display: none;
+}
+
+#nav li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    /*bỏ gạch chân*/
+    line-height: 46.5px;
+    padding: 0 24px;
+    text-transform: uppercase;
+    /*Viết hoa toàn bộ chữ*/
+    /*Set font chữ */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav li:hover a {
+    color: #000;
+    background-color: #ccc;
+}
