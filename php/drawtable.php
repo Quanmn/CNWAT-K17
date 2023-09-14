@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php
     include('header.php');
+    include('right.php');
     ?>
     <style>
-        table {
-            border-collapse: collapse;
-            margin-top: 50px;
-            margin-left: 30px;
-        }
-        table, th, td {
-            border: 1px solid #ccc;
-            padding: 1px;
-            text-align: center;
-        }
-        .drawtable{
-            margin-top: 40px;
-            margin-left: 30px;
-        }
+    table {
+        border-collapse: collapse;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid #ccc;
+        padding: 1px;
+        text-align: center;
+    }
+
+    .drawtable {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
     </style>
 </head>
+
 <body>
     <form method="POST" action="" class="drawtable">
         <label for="rows">Nhập số dòng:</label>
@@ -56,4 +63,5 @@
     }
     ?>
 </body>
+
 </html>

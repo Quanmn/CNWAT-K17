@@ -1,24 +1,32 @@
-<?php include ('header.php'); ?>
+<?php include ('header.php'); 
+include('right.php');
+?>
 <style>
-    table {
-        margin-left: 50px;
-        margin-top: 50px;
-    }
-    table, th, td {
-        border: 2px solid #ccc;
-        padding: 1px;
-        text-align: center;
-    }
-    th {
-        background-color: #f9f9f9;
-    }
-    .calculate {
-        padding: 30px;
-    }
-    .result{
-        margin-left: 50px;
-        margin-top: 50px;
-    }
+table {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+table,
+th,
+td {
+    border: 2px solid #ccc;
+    padding: 1px;
+    text-align: center;
+}
+
+th {
+    background-color: #f9f9f9;
+}
+
+.calculate {
+    padding: 30px;
+}
+
+.result {
+    margin-left: 50px;
+    margin-top: 50px;
+}
 </style>
 
 </style>
@@ -26,14 +34,14 @@
     <tr>
         <td></td>
         <td>
-        <form class="calculate" method="POST" action="">
-            <label for="a">Nhập giá trị thứ nhất:</label>
-            <input type="text" id="a" name="a">
+            <form class="calculate" method="POST" action="">
+                <label for="a">Nhập giá trị thứ nhất:</label>
+                <input type="text" id="a" name="a">
         </td>
     </tr>
     <tr>
         <td>
-            
+
         </td>
         <td>
             <label for="b">Nhập giá trị thứ hai:</label>
