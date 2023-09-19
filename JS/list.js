@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (isChecked) {
                 row.style.backgroundColor = '#FFFF00';
             } else {
-                row.style.backgroundColor = row.rowIndex % 2 === 0 ? '#00FFFF' : 'initial';
+                 row.style.backgroundColor = row.rowIndex % 2 === 0 ? '#00FFFF' : 'initial';
             }
 
             if (row.rowIndex === 1) {
